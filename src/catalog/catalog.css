@@ -1,0 +1,51 @@
+
+.contianer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.catalogue{
+    width: 80%;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 50px;
+    justify-items: center;
+}
+.characters-image{
+    height: 276px;
+    width: 180px;
+}
+
+.characters-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320px;
+    width: 180px;
+    text-align: center;
+}
+
+.characters-name:hover{
+    cursor: pointer;
+}
+
+.btn-continue{
+    position: fixed;
+    margin-left: 90%;
+    margin-top: 26%;
+    font-size: 50px;
+}
+
+.btn-previous{
+    position: fixed;
+    margin-right: 90%;
+    margin-top: 26%;
+    font-size: 50px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
